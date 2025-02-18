@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta 3</title>
+    <style>
+        .opcao {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .opcao img {
+            margin-right: 10px;
+            width: 50px; /* Ajuste o tamanho conforme necessário */
+            height: 50px; /* Ajuste o tamanho conforme necessário */
+        }
+    </style>
+</head>
+<body>
+    <h2>Qual seu tipo de pele?</h2>
+    <form action="pergunta4.html" method="get">
+        <div class="opcao">
+            <input type="radio" id="normal" name="tipo_pele" value="normal" required>
+            <label for="normal">
+                <img src="imagens/imagem01.jpg" alt="Pele Normal">
+                Normal (Não é oleosa e nem seca. Classificada como uma pele equilibrada.)
+            </label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="seca" name="tipo_pele" value="seca">
+            <label for="seca">
+                <img src="imagens/imagem02.jpg" alt="Pele Seca">
+                Seca (Sensação de repuxamento, descamação, aparência sem viço e sensibilidade são algumas características).
+            </label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="seca" name="tipo_pele" value="seca">
+            <label for="seca">
+                <img src="imagens/imagem03.jpg" alt="Pele Seca">
+                Seca (Sensação de repuxamento, descamação, aparência sem viço e sensibilidade são algumas características).
+            </label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="seca" name="tipo_pele" value="seca">
+            <label for="seca">
+                <img src="imagens/imagem04.jpg" alt="Pele Seca">
+                Seca (Sensação de repuxamento, descamação, aparência sem viço e sensibilidade são algumas características).
+            </label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="seca" name="tipo_pele" value="seca">
+            <label for="seca">
+                <img src="imagens/imagem05.jpg" alt="Pele Seca">
+                Seca (Sensação de repuxamento, descamação, aparência sem viço e sensibilidade são algumas características).
+            </label>
+        <button type="submit">Próximo</button>
+    </form>
+</body>
+</html>
